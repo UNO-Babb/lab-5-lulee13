@@ -12,7 +12,6 @@ def inWord(letter, word):
 
 def inSpot(letter, word, spot):
     """Returns boolean response if letter is in the given spot in the word."""
-    spot = word.find(letter)
     if word[spot] == letter:
         return True
     else:
